@@ -1,6 +1,7 @@
 <?php
 require_once "action.php";
-
+include "header.php";
+include "footer.php";
 $autorized = false;
 if (isset($_POST["go"])) {
     $login = $_POST["login"];
